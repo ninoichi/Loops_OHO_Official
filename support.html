@@ -8,14 +8,60 @@
     <style>
         body {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            padding: 1em;
-            width: 50%;
-            margin: 0 auto;
             background-color: #eee;
+            margin: 0;
         }
         h3{
             margin-top: 30px;
         }
+        #header_wrap
+        {
+            color: #373737;
+            -webkit-font-smoothing: antialiased;
+            margin: 0 0 40px 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            vertical-align: baseline;
+            width: 100%;
+            background-color: #79283C;
+        }
+        #header_wrap .inner {
+            padding: 50px 10px 30px 10px;
+        }
+        .inner {
+            position: relative;
+            max-width: 640px;
+            padding: 20px 10px;
+            margin: 0 auto;
+        }
+        #project_title {
+            margin: 0;
+            color: #fff;
+            font-size: 42px;
+            font-weight: 700;
+            text-shadow: #111 0px 0px 10px;
+            text-align: center;
+        }
+        #project_tagline {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 300;
+            background: none;
+            text-shadow: #111 0px 0px 10px;
+        }
+        h2 {
+            padding-bottom: 10px;
+            font-size: 32px;
+            background: url(../images/bg_hr.png) repeat-x bottom;
+        }
+        #main
+        {
+            padding: 1em;
+            width: 50%;
+            margin: 0 auto;
+        }
+        
         @media screen and (max-width: 768px) {
         /* 768pxまでの幅の場合に適応される */
             body {
@@ -26,25 +72,33 @@
 </head>
 
 <body>
-    <h1>User Support</h1>
-    <p>
-        This is the user support page for the iOS app "Loops_OHO".<br>
-        Thank you for using the app.
-    </p>
-    <h3>Privacy Polisy</h3>
-    <p>
-        Please check the privacy policy of this application from <a href="https://ninoichi.github.io/Loop_OHO_Official/">here.</a>
-    </p>
-    <p>
-        https://ninoichi.github.io/Loop_OHO_Official/
-    </p>
-    <h3>Contact</h3>
-    <p>
-        Please send your enquiries to <a href="mailto:ninoichi.tamada@gmail.com?subject=Loops_OHO enquiries">this address</a>.
-    </p>
-    <p>
-        ninoichi.tamada@gmail.com
-    </p>
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1 id="project_title">Loops_OHO_Official</h1>
+          <h2 id="project_tagline"></h2>
+        </header>
+    </div>
+    <div id="main">
+        <h2>User Support</h2>
+        <p>
+            This is the user support page for the iOS app "Loops_OHO".<br>
+            Thank you for using the app.
+        </p>
+        <h3>Privacy Polisy</h3>
+        <p>
+            Please check the privacy policy of this application from <a href="https://ninoichi.github.io/Loop_OHO_Official/">here.</a>
+        </p>
+        <p>
+            https://ninoichi.github.io/Loop_OHO_Official/
+        </p>
+        <h3>Contact</h3>
+        <p>
+            Please send your enquiries to <a href="mailto:ninoichi.tamada@gmail.com?subject=Loops_OHO enquiries">this address</a>.
+        </p>
+        <p>
+            ninoichi.tamada@gmail.com
+        </p>
+    </div>
     
 </body>
 
