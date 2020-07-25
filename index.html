@@ -15,6 +15,47 @@
         h3{
             margin-top: 30px;
         }
+        #header_wrap
+        {
+            color: #373737;
+            -webkit-font-smoothing: antialiased;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            vertical-align: baseline;
+            width: 100%;
+            background: linear-gradient(to top, #373737, #212121);
+        }
+        #header_wrap .inner {
+            padding: 50px 10px 30px 10px;
+        }
+        .inner {
+            position: relative;
+            max-width: 640px;
+            padding: 20px 10px;
+            margin: 0 auto;
+        }
+        #project_title {
+            margin: 0;
+            color: #fff;
+            font-size: 42px;
+            font-weight: 700;
+            text-shadow: #111 0px 0px 10px;
+        }
+        #project_tagline {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 300;
+            background: none;
+            text-shadow: #111 0px 0px 10px;
+        }
+        h2 {
+            padding-bottom: 10px;
+            font-size: 32px;
+            background: url(../images/bg_hr.png) repeat-x bottom;
+        }
+        
         @media screen and (max-width: 768px) {
         /* 768pxまでの幅の場合に適応される */
             body {
@@ -24,6 +65,12 @@
     </style>
     </head>
     <body>
+        <div id="header_wrap" class="outer">
+            <header class="inner">
+              <h1 id="project_title">Loops_OHO_Official</h1>
+              <h2 id="project_tagline"></h2>
+            </header>
+        </div>
     <strong>Privacy Policy</strong> <p>
                   ninoichi built the Loops_OHO app as
                   an Ad Supported app. This SERVICE is provided by
